@@ -4,7 +4,7 @@ session_start();
 /* ---------------------------
    DEMO LOGIN CREDENTIALS
 ---------------------------- */
-$valid_email = "admin@gmail.com";
+$valid_email = "user@gmail.com";
 $valid_password = "12345";
 
 /* ---------------------------
@@ -35,7 +35,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Admin Login</title>
+    <title>User Login</title>
 
     <!-- Bootstrap 5 -->
     <link 
@@ -106,7 +106,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <div class="card shadow p-4 login-card">
 
     <h2 class="text-center mb-4 login-title">
-        Admin Login
+        User Login
     </h2>
 
     <?php
@@ -150,18 +150,16 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         </div>
 
         <button type="submit" class="btn btn-login text-white w-100">
-        <a href="dashboard4.php">Log In</a>
+        <a href="dashboard2.php">Log In</a>
         </button>
 
     </form>
 
-    <button type="submit" class="btn btn-login text-white w-50">
-        <a href="user1.php">User Log In</a>
-        </button>
+    <p class="text-center mt-3 text-muted">
+        Demo Login: user@gmail.com / 12345
+    </p>
 
 </div>
 
 </body>
 </html>
-
-

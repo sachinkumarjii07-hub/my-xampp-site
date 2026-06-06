@@ -3,12 +3,11 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>AZ News</title>
+         <title>AZ News</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="manifest" href="site.webmanifest">
 		<link rel="shortcut icon" type="image/x-icon" href="assets/img/team/Z.png">
-
 		<!-- CSS here -->
             <link rel="stylesheet" href="assets/css/bootstrap.min.css">
             <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
@@ -22,6 +21,7 @@
             <link rel="stylesheet" href="assets/css/slick.css">
             <link rel="stylesheet" href="assets/css/nice-select.css">
             <link rel="stylesheet" href="assets/css/style.css">
+            <link rel="stylesheet" href="assets/css/responsive.css">
    </head>
 
    <body>
@@ -49,8 +49,8 @@
                             <div class="row d-flex justify-content-between align-items-center">
                                 <div class="header-info-left">
                                     <ul>     
-                                        <li><img src="assets/img/icon/header_icon1.png" alt="">38ºc, Sunny </li>
-                                        <li><img src="assets/img/icon/header_icon1.png" alt="">Wednesday, 20th May, 2026</li>
+                                        <li><img src="assets/img/icon/header_icon1.png" alt="">39ºc, Sunny </li>
+                                        <li><img src="assets/img/icon/header_icon1.png" alt="">friday, 12th May, 2026</li>
                                     </ul>
                                 </div>
                                 <div class="header-info-right">
@@ -70,7 +70,7 @@
                             <!-- Logo -->
                             <div class="col-xl-3 col-lg-3 col-md-3">
                                 <div class="logo">
-                                    <a href="index.php"><img src="assets/img/team/uu.png" height="100px" width="100px" alt=""></a>
+                                    <a href="index.php"><img src="assets/img/team/uu.png" alt=""></a>
                                 </div>
                             </div>
                             <div class="col-xl-9 col-lg-9 col-md-9">
@@ -98,7 +98,7 @@
                                             <li><a href="about.php">About</a></li>
                                             <li><a href="latest_news.php">Latest News</a></li>
                                             <li><a href="contact.php">Contact</a></li>
-                                                    <li><a href="index1.php">Login</a></li>
+                                                    <li><a href="adminlogin.php">Login</a></li>
                                                 </ul>
                                             </li>
                                         </ul>
@@ -127,207 +127,111 @@
        </div>
         <!-- Header End -->
     </header>
-
-    <main>
-    <!-- Trending Area Start -->
-    <div class="trending-area fix">
-        <div class="container">
-            <div class="trending-main">
-                <!-- Trending Tittle -->
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="trending-tittle">
-                            <strong>Trending now</strong>
-                            <!-- <p>BCCI Cricket Announces Upcoming IPL Auction 2026</p> -->
-                            <div class="trending-animated">
-                                <ul id="js-news" class="js-hidden">
-                                    <li class="news-item">New Upcoming Album of Drake</li>
-                                    <li class="news-item">Match live Today: Ind vs Pak</li>
-                                    <li class="news-item">Is Playboi Carti is New Generation Micheal Jackson?</li>
-                                </ul>
-                            </div>
-                            
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-8">
-                        <!-- Trending Top -->
-                        <div class="trending-top mb-30">
-                            <div class="trend-top-img">
-                                <img src="assets/img/team/sa.webp" alt="">
-                                <div class="trend-top-cap">
-                                    <span>Top Article</span>
-                                    <h2><a href="details.php">Drake's Drops New 3 Albums on May 15</h2>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Trending Bottom -->
-                        <div class="trending-bottom">
-                            <div class="row">
-                                <div class="col-lg-4">
-                                <div class="single-bottom mb-35">
-                                    <div class="trend-bottom-img mb-30">
-                                        <img src="assets/img/team/jh.jpg" alt="">
-                                    </div>
-                                    <div class="trend-bottom-cap">
-                                        <span class="color1">Rapper</span>
-                                        <h4><a href="details.php">Playboi Carti Announces New Concerts in Upcoming Days</a></h4>
-                                    </div>
-                                </div>
-                                </div>
-                                <div class="col-lg-4">
-                                    <div class="single-bottom mb-35">
-                                        <div class="trend-bottom-img mb-30">
-                                            <img src="assets/img/team/i7.jpg" alt="">
-                                        </div>
-                                        <div class="trend-bottom-cap">
-                                            <span class="color2">Hollywood</span>
-                                            <h4><h4><a href="details.php">Why Every Artist Says Kanye West is One of The Most Influential Artist of Generation?</a></h4></h4>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-4">
-                                    <div class="single-bottom mb-35">
-                                        <div class="trend-bottom-img mb-30">
-                                            <img src="assets/img/team/i8.webp" alt="">
-                                        </div>
-                                        <div class="trend-bottom-cap">
-                                            <span class="color3">Politics</span>
-                                            <h4><a href="details.php">Actor Vijay Turned Into CM</a></h4>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Riht content -->
-                    <div class="col-lg-4">
-                        <div class="trand-right-single d-flex">
-                            <div class="trand-right-img">
-                                <img src="assets/img/trending/ni.jpg" alt="">
-                            </div>
-                            <div class="trand-right-cap">
-                                <span class="color1">Music</span>
-                                <h4><a href="details.php">Bully Surpassed 1 Billion Streams in 1 Month</a></h4>
-                            </div>
-                        </div>
-                        <div class="trand-right-single d-flex">
-                            <div class="trand-right-img">
-                                <img src="assets/img/trending/io.jpeg" alt="">
-                            </div>
-                            <div class="trand-right-cap">
-                                <span class="color3">Cars</span>
-                                <h4><a href="details.php">Best Cars For Off-Roading in 2026</a></h4>
-                            </div>
-                        </div>
-                        <div class="trand-right-single d-flex">
-                            <div class="trand-right-img">
-                                <img src="assets/img/trending/yu.webp" alt="">
-                            </div>
-                            <div class="trand-right-cap">
-                                <span class="color2">Cast</span>
-                                <h4><a href="details.php">Brad Pitt New Movies List in 2026</a></h4>
-                            </div>
-                        </div>
-                        
-                            <div class="trand-right-single d-flex">
-                            <div class="trand-right-img">
-                                <img src="assets/img/team/vf_cropped.webp" alt="">
-                            </div>
-                        
-                         <div class="trand-right-cap">
-                                <span class="color1">Web Series</span>
-                                <h4><a href="details.php">Breaking Bad is Greatest TV Show?</a></h4>
-                            </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!--  Recent Articles start -->
-    <div class="recent-articles">
-        <div class="container">
-           <div class="recent-wrapper">
-                <!-- section Tittle -->
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="section-tittle mb-30">
-                            <h3>Recent Articles</h3>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-12">
-                        <div class="recent-active dot-style d-flex dot-style">
-                            <div class="single-recent mb-100">
-                                <div class="what-img">
-                                    <img src="assets/img/team/65.webp" alt="">
-                                </div>
-                                <div class="what-cap">
-                                    <span class="color1">Vechiles</span>
-                                    <h4><a href="#">Scorpio s11 Classic Top Model On Road Price?</a></h4>
-                                </div>
-                            </div>
-                            <div class="single-recent mb-100">
-                                <div class="what-img">
-                                    <img src="assets/img/team/y6.jpg" alt="">
-                                </div>
-                                <div class="what-cap">
-                                    <span class="color1">Movies</span>
-                                    <h4><a href="#"></a>Upcoming Avengers Doomsday Movie Releasing in This Year</h4>
-                                </div>
-                            </div>
-                            <div class="single-recent mb-100">
-                                <div class="what-img">
-                                    <img src="assets/img/trending/98v.jpg" alt="">
-                                </div>
-                                <div class="what-cap">
-                                    <span class="color1">Health</span>
-                                    <h4><a href="#">These 10 Foods Can Grow Your Mental Health</a></h4>
-                                </div>
-                            </div>
-                            <div class="single-recent mb-100">
-                                <div class="what-img">
-                                    <img src="assets/img/team/ttc.webp" alt="">
-                                </div>
-                                <div class="what-cap">
-                                    <span class="color1">Education</span>
-                                    <h4><a href="#">Best Colleges in Jalandhar</a></h4>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-           </div>
-        </div>
-    </div>           
-    <!--Recent Articles End -->
-    <!--Start pagination -->
-    <div class="pagination-area pb-45 text-center">
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-12">
-                    <div class="single-wrap d-flex justify-content-center">
-                        <nav aria-label="Page navigation example">
-                            <ul class="pagination justify-content-start">
-                              <li class="page-item"><a class="page-link" href="#"><span class="flaticon-arrow roted"></span></a></li>
-                                <li class="page-item active"><a class="page-link" href="#">01</a></li>
-                                <li class="page-item"><a class="page-link" href="#">02</a></li>
-                                <li class="page-item"><a class="page-link" href="#">03</a></li>
-                              <li class="page-item"><a class="page-link" href="#"><span class="flaticon-arrow right-arrow"></span></a></li>
-                            </ul>
-                          </nav>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- End pagination  -->
-    </main>
     
+    <main>
+        <!-- About US Start -->
+        <div class="about-area">
+            <div class="container">
+                    <!-- Hot Aimated News Tittle-->
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="trending-tittle">
+                                <strong>Trending now</strong>
+                                <!-- <p>Gold, Silver Prices Updates</p> -->
+                                <div class="trending-animated">
+                                    <ul id="js-news" class="js-hidden">
+                                        <li class="news-item">New Opium Tour With PlayBoi Carti</li>
+                                        <li class="news-item">New Shubh Songs Are Uploaded On All Platforms</li>
+                                        <li class="news-item">Fifa World Cup 2026: Starting Soon</li>
+                                    </ul>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                   <div class="row">
+                        <div class="col-lg-8">
+                            <!-- Trending Tittle -->
+                                    <div class="about-right mb-90">
+                                        <div class="about-img">
+                                            <img src="assets/img/team/sw.png" alt="">
+                                        </div>
+                                        <div class="section-tittle mb-30 pt-30">
+                                            <h3>About Us - AZ News</h3>
+                                        </div>
+                                        <div class="about-prea">
+                                            <p class="about-pera1 mb-25">Welcome to AZ News, your premier digital destination for independent, fast-paced, and comprehensive coverage of the world’s most impactful stories. From the shifting tides of global politics to the latest drops reshaping the music industry, we deliver the news that matters to you, right as it happens.</p>
+                                            <p class="about-pera1 mb-25">At AZ News, we believe that staying informed shouldn't mean scrolling through endless filler. We cut through the noise to bring you sharp analysis, verified updates, and deep dives into the cultural and political landscapes defining our generation.</p>
+                                            <p class="about-pera1 mb-25">Latest News: Real-time updates on breaking global events, tech trends, and cultural shifts. If it's happening right now, you'll find it here first.
+</p>
+<p class="about-pera1 mb-25">Music Albums: In-depth reviews, exclusive drop alerts, and track-by-track breakdowns of the most anticipated albums across hip-hop, R&B, pop, and indie scenes.</p>
+<p class="about-pera1 mb-25">Clear, unbiased, and critical reporting on local and international political events, elections, policy changes, and social movements.</p>
+<p class="about-pera1 mb-25">Captivating deep dives into the lives of legendary icons, historical figures, and contemporary trailblazers who have shaped our world.</p>
+<p class="about-pera1 mb-25">Our Mission: To empower our audience with accurate, timely, and engaging journalism that bridges the gap between hard-hitting news and cultural entertainment.
+
+We don't just report the facts—we provide the context. Whether you are trying to understand a complex political bill, looking for your next favorite album, or exploring the legacy of a historical figure, AZ News delivers content with depth, clarity, and an independent voice.
+</p>
+<p class="about-pera1 mb-25">Thank you for making us your trusted news source.</p>
+<h4>Stay informed, stay ahead. — The AZ News Team</h4>
+                                        </div>
+                                    </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <!-- Section Tittle -->
+                            <div class="section-tittle mb-40">
+                                <h3>Follow Us</h3>
+                            </div>
+                            <!-- Flow Socail -->
+                            <div class="single-follow mb-45">
+                                <div class="single-box">
+                                    <div class="follow-us d-flex align-items-center">
+                                        <div class="follow-social">
+                                            <a href="#"><img src="assets/img/news/icon-fb.png" alt=""></a>
+                                        </div>
+                                        <div class="follow-count">  
+                                            <span>1,292,182</span>
+                                            <p>Followers</p>
+                                        </div>
+                                    </div> 
+                                    <div class="follow-us d-flex align-items-center">
+                                        <div class="follow-social">
+                                            <a href="#"><img src="assets/img/news/icon-tw.png" alt=""></a>
+                                        </div>
+                                        <div class="follow-count">
+                                            <span>129,281</span>
+                                            <p>Followers</p>
+                                        </div>
+                                    </div>
+                                        <div class="follow-us d-flex align-items-center">
+                                        <div class="follow-social">
+                                            <a href="#"><img src="assets/img/news/icon-ins.png" alt=""></a>
+                                        </div>
+                                        <div class="follow-count">
+                                            <span>562,192</span>
+                                            <p>Followers</p>
+                                        </div>
+                                    </div>
+                                    <div class="follow-us d-flex align-items-center">
+                                        <div class="follow-social">
+                                            <a href="#"><img src="assets/img/news/icon-yo.png" alt=""></a>
+                                        </div>
+                                        <div class="follow-count">
+                                            <span>2,182,281</span>
+                                            <p>Subscribers</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- New Poster -->
+                            <div class="news-poster d-none d-lg-block">
+                                <img src="assets/img/team/saz.png" alt="">
+                            </div>
+                        </div>
+                   </div>
+            </div>
+        </div>
+        <!-- About US End -->
+    </main>
    <footer>
        <!-- Footer Start-->
        <div class="footer-area footer-padding fix">
@@ -358,7 +262,7 @@
                         <div class="single-footer-caption mt-60">
                             <div class="footer-tittle">
                                 <h4>Newsletter</h4>
-                                <p>A to Z News Updates</p>
+                                <p>Write here what you need to see</p>
                                 <!-- Form -->
                                 <div class="footer-form" >
                                     <div id="mc_embed_signup">
@@ -386,6 +290,7 @@
                             <div class="instagram-gellay">
                                 <ul class="insta-feed">
                                     <li><a href="#"><img src="assets/img/team/Z.png" alt=""></a></li>
+                                    
                                 </ul>
                             </div>
                         </div>
@@ -461,6 +366,5 @@
 		<!-- Jquery Plugins, main Jquery -->	
         <script src="./assets/js/plugins.js"></script>
         <script src="./assets/js/main.js"></script>
-        
     </body>
 </html>

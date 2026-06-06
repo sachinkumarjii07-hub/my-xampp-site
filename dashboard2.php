@@ -44,7 +44,7 @@ session_start();
     <div class="card p-5 shadow">
 
         <h1 class="text-success">
-            Welcome Admin
+            Welcome User
         </h1>
 
         <p>
